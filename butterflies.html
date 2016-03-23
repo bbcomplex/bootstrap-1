@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html id="ng-app" ng-app="makeitApp">
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="Description" CONTENT="Make It Event 2016 | Adobe Australia">
+
+<meta property="og:site_name"       content="MAKE IT" /> 
+<meta property="og:url"             content="http://makeitapac.adobe.com/" /> 
+<meta property="og:title"           content="Make It Event 2016 | Adobe Australia" /> 
+<meta property="og:image"           content="http://makeitapac.adobe.com/images/1200x1200-FB-Share.jpg" /> 
+<meta property="og:description"    content="In 2015, over 500 creatives came together for Adobe's first ever local creativity conference. From shooting photos in a war zone to threading people together around the country to work for good, the event celebrated creativity and the technology that enables it." />
+
+
+<title>Make It Event 2016 | Adobe Australia</title>
+<link id="favicon" rel="icon" href="/images/icon.ico" type="image/x-icon">
+<script	src="//assets.adobedtm.com/659ec8ada5450db95675e43beaaae92399591a11/satelliteLib-46e65db5bb0c375f8f64619be31cc9b29acf4867.js"></script>
+<script src="https://use.typekit.net/ztp0usn.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="jquery.stellar.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css"/ >
+
+
+</head>
+<body >
+<section id="menu_content" ng-controller="menuController">
+	<div class="content" ng-include src="'menu.html'"></div></div>
+</section>
+<section id="main_content">
+	<div ng-view></div>
+</section>
+<section id="footer_content">
+	<div class="content" ng-include src="'footer.html'"></div></div>
+</section>
+<script	type="text/javascript">_satellite.pageBottom();</script>
+</body>
+</html>
