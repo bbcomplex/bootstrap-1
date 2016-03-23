@@ -18,7 +18,6 @@
 <script	src="//assets.adobedtm.com/659ec8ada5450db95675e43beaaae92399591a11/satelliteLib-46e65db5bb0c375f8f64619be31cc9b29acf4867.js"></script>
 <script src="https://use.typekit.net/ztp0usn.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-<script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="jquery.stellar.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.min.js"></script>
@@ -27,13 +26,38 @@
 <script type="text/javascript" src="main.js"></script>
 <link rel="stylesheet" type="text/css" href="main.css"/ >
 
-
 </head>
 <body >
 <section id="menu_content" ng-controller="menuController">
 	<div class="content" ng-include src="'menu.html'"></div></div>
 </section>
-<section id="peanut's taste better!!!">
+<section id="this-is-wrong">
+	<div ng-view></div>
+</section>
+<section id="footer_content">
+	<div class="content" ng-include src="'footer.html'"></div></div>
+</section>
+<section id="menu_content" ng-controller="menuController">
+	<div class="content" ng-include src="'menu.html'"></div></div>
+</section>
+<section id="this-is-wrong">
+	<div ng-view></div>
+</section>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="Description" CONTENT="Make It Event 2016 | Adobe Australia">
+<title>Make It Event 2016 | Adobe Australia</title>
+<link id="favicon" rel="icon" href="/images/icon.ico" type="image/x-icon">
+<meta property="og:site_name"       content="MAKE IT" /> 
+<meta property="og:url"             content="http://makeitapac.adobe.com/" /> 
+<meta property="og:title"           content="Make It Event 2016 | Adobe Australia" /> 
+<section id="footer_content">
+	<div class="content" ng-include src="'footer.html'"></div></div>
+</section>
+<section id="menu_content" ng-controller="menuController">
+	<div class="content" ng-include src="'menu.html'"></div></div>
+</section>
+<section id="this-is-wrong">
 	<div ng-view></div>
 </section>
 <section id="footer_content">
